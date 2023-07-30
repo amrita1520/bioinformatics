@@ -1,0 +1,26 @@
+{
+    "machineType": "mi4xlarge",
+    "image": "docker.polly.elucidata.io/elucidata/amrita_immuno_d6",
+    "tag": "v0.2.0",
+    "timelimit": 72,
+    "name": "EL qc ATAC216",
+    "command": [
+      "./entrypoint.sh"
+  ],
+   "env": {
+       "WORKSPACE_ID": "10640",
+       "FILE_PATH_SOURCE": "launcher.sh",
+       "PY_FILE_PATH_SOURCE": "merge_preprocess.py",
+       "value":"SRR18045263",
+       "OUTPUT_DIR_IM": "results",
+       "refvdj":"refdata-cellranger-vdj-GRCh38-alts-ensembl-5.0.0",
+       "refgex":"refdata-gex-GRCh38-2020-A",
+       "vdj":"vdj",
+       "count":"count",
+       "fastqc":"fastqc",
+       "data":"data",
+        "LOCAL_CORES":"16",
+        "LOCAL_MEM":"120"
+
+    }
+}

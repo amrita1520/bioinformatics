@@ -1,0 +1,1 @@
+polly dockers build-status --id  eyJkYXRhIjp7InByb2plY3RfaWQiOjE0MTk1LCJqb2JfaWQiOiIxMWYxN2YxMDQyYmQ0MzVlYmM0ZjkzZGFkMTVjNzcyYyJ9fQ== > log1.txt
